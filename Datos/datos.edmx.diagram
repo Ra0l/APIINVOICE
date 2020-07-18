@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0bc5a4a0e6534c47999440c0150d2b00" Name="Diagram1">
+        <EntityTypeShape EntityType="InvoiceDBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.Details" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.Invoices" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.Products" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.Users" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InvoiceDBModel.UserTypes" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="InvoiceDBModel.FK_dbo_Details_dbo_Invoices_InvoiceID" ManuallyRouted="false" />
+        <AssociationConnector Association="InvoiceDBModel.FK_dbo_Details_dbo_Products_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="InvoiceDBModel.FK_dbo_Details_dbo_Users_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="InvoiceDBModel.FK_dbo_Users_dbo_UserTypes_UserTypeID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
